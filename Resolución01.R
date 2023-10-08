@@ -59,3 +59,9 @@ X
 tablaAgri=crea.tablaX(c(300,540,615,210,345,105,709,298,365,640,100,540,860,192,570,540),
                       numalternativas=4,numestados=4)
 criterio.Todos(tablaAgri)
+#e1  e2  e3  e4 Wald Optimista Hurwicz Savage Laplace Punto Ideal
+#d1              300 540 615 210  210       615   331.5    560   416.2       664.3
+#d2              345 105 709 298  105       709   286.2    535   364.2       781.0
+#d3              365 640 100 540  100       640   262.0    609   411.2       784.8
+#d4              860 192 570 540  192       860   392.4    448   540.5       469.1
+#iAlt.Opt (fav.)  --  --  --  --   d1        d4      d4     d4      d4          d4
