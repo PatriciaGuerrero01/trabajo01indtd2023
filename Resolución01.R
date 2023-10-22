@@ -45,10 +45,10 @@ criterio.PuntoIdeal(tablaDec,favorable = FALSE) #Alternativa 1
 
 
 #PROBLEMA 2: Un agricultor quiere estudiar el crecimiento de una determinada 
-#cosecha de verdura. Posee cuatro posibles terrenos donde sembrar: Terreno 1 (a1), 
-#Terreno 2 (a2),Terreno 3 (a3), Terreno 4 (a4) ; habrá 4 posibles estados del 
-#clima que influirá en el crecimiento de la cosecha: soleado(d1),nublado(d2),
-#lluvia(d3),lluvia abundante(d4). Y en consecuencia se recolectarán más o menos kilos de
+#cosecha de verdura. Posee cuatro posibles terrenos donde sembrar: Terreno 1 (d1), 
+#Terreno 2 (d2),Terreno 3 (d3), Terreno 4 (d4) ; habrá 4 posibles estados del 
+#clima que influirá en el crecimiento de la cosecha: soleado(e1),nublado(e2),
+#lluvia(e3),lluvia abundante(e4). Y en consecuencia se recolectarán más o menos kilos de
 #verdura que se recogen en la siguiente tabla: 
 
 X = matrix(c(300,540,615,210,345,105,709,298,365,640,100,540,860,192,570,540),nrow=4,ncol=4,byrow=TRUE)
